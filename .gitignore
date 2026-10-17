@@ -246,7 +246,7 @@ conda-bld/
 *.backup
 *.sql.gz
 
-# Local data exports (uncomment if you don't want to track these)
+# Local data exports
 # data/raw/
 # exports/
 
