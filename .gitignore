@@ -218,3 +218,38 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local environment and secrets
+.env.*
+!.env.example
+.conda/
+conda-bld/
+*.pem
+*.key
+
+# VS Code (personal workspace settings)
+.vscode/
+
+# PyCharm / JetBrains (personal workspace settings)
+.idea/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Local database files and backups
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.bak
+*.backup
+*.sql.gz
+
+# Local data exports (uncomment if you don't want to track these)
+# data/raw/
+# exports/
+
+# Windows temporary files
+Thumbs.db
+Desktop.ini
